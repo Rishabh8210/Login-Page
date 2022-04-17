@@ -9,9 +9,10 @@ body{
     align-items: center;
     justify-content: center;
     background:linear-gradient(to bottom right, #339966 0%, #000099 100%);
+    overflow: hidden;
 }
 .Container{
-    max-width: 500px;
+    max-width: 768px;
     width: 100%;
     background-color: rgb(0, 0, 0);
     color: rgb(255, 255, 255);
@@ -20,25 +21,29 @@ body{
 }
 h1{
     margin-top:27px;
+    font-size: 55px;
 }
 h1,p{
     text-align: center;
 }
 p{
-    margin-top: 6px;
+    font-size: 22px;
+    margin-top: 19px;
     margin-bottom: 10px;
 }
 .Pa a{
     color: whitesmoke;
+    font-size: 22px;
     padding-top: 23%;
 
 }
 
 input[type="text"],input[type="password"]{
-    padding: 10px;
-    width: 50%;
+    padding: 13px;
+    width: 70%;
+    font-size: 25px;
     background-color: black;
-    margin: 10px 0px 12px 120px;
+    margin: 21px 0px 18px 120px;
     border: 2px solid cyan;
     border-radius: 18px;
     color: white;
@@ -52,24 +57,25 @@ input[type="password"]:hover{
 }
 
 input[type="submit"]{
-    padding: 10px;
-    margin:18px 0px 27px 41%;
-    width: 17%;
-    border: 2px solid green;
+    padding: 12px;
+    margin:18px 0px 34px 37%;
+    width: 27%;
+    border: 3px solid green;
     background-color: black;
     color: white;
     border-radius: 17px;
+    font-size: 26px;
 
 }
 input[type="submit"]:hover{
     background-color: #339966;
     cursor: pointer;
-    font-weight: 600;
+    font-weight: 900;
 }
 
 img{
-    height: 20px;
-    margin-bottom: 23px;
+    height: 40px;
+    margin-bottom: 27px;
 }
 .logo1{
     margin-left: 36%;
@@ -77,4 +83,153 @@ img{
 .logo2,.logo3{
     margin-left: 37px;
 }
-
+@media only screen and (min-width:300px) and (max-width:500px){
+    .Container{
+    max-width: 300px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border: 2px solid white;
+    border-radius: 9px;
+    }
+    h1{
+        font-size: 35px;
+        margin-top:18px;
+    }
+    h1,p{
+        text-align: center;
+    }
+    p{
+        font-size: 16px;
+        margin-top: 12px;
+        margin-bottom: 15px;
+    }
+    .Pa a{
+        font-size: 16px;
+        color: whitesmoke;
+        padding-top: 22%;
+    
+    }
+    
+    input[type="text"],input[type="password"]{
+        padding: 10px;
+        width: 50%;
+        font-size: 16px;
+        background-color: black;
+        margin: 6px 0px 18px 75px;
+        border: 2px solid cyan;
+        border-radius: 18px;
+        color: white;
+        
+    }
+    input[type="text"]:hover{
+        border-color:red;
+    }
+    input[type="password"]:hover{
+        border-color:red;
+    }
+    
+    input[type="submit"]{
+        padding: 8px;
+        font-size: 12px;
+        font-weight: bold;
+        margin:18px 0px 27px 38%;
+        width: 20%;
+        border: 2px solid green;
+        background-color: black;
+        color: white;
+        border-radius: 17px;
+    
+    }
+    input[type="submit"]:hover{
+        background-color: #339966;
+        cursor: pointer;
+        font-weight: 600;
+    }
+    
+    img{
+        height: 20px;
+        margin-bottom: 23px;
+    }
+    .logo1{
+        margin-left: 28%;
+    }
+    .logo2,.logo3{
+        margin-left: 30px;
+    }
+}
+@media only screen and (min-width:500px) and (max-width:768px)
+{
+    .Container{
+        max-width: 500px;
+        width: 100%;
+        background-color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
+        border: 2px solid white;
+        border-radius: 9px;
+    }
+    h1{
+        margin-top:27px;
+        font-size: 45px;
+    }
+    h1,p{
+        text-align: center;
+    }
+    p{
+        font-size: 18px;
+        margin-top: 19px;
+        margin-bottom: 10px;
+    }
+    .Pa a{
+        color: whitesmoke;
+        font-size: 18px;
+        padding-top: 23%;
+    
+    }
+    
+    input[type="text"],input[type="password"]{
+        padding: 13px;
+        width: 60%;
+        font-size: 25px;
+        background-color: black;
+        margin: 21px 0px 18px 100px;
+        border: 2px solid cyan;
+        border-radius: 18px;
+        color: white;
+        
+    }
+    input[type="text"]:hover{
+        border-color:red;
+    }
+    input[type="password"]:hover{
+        border-color:red;
+    }
+    
+    input[type="submit"]{
+        padding: 12px;
+        margin:18px 0px 34px 39%;
+        width: 22%;
+        border: 3px solid green;
+        background-color: black;
+        color: white;
+        border-radius: 17px;
+        font-size: 22px;
+    
+    }
+    input[type="submit"]:hover{
+        background-color: #339966;
+        cursor: pointer;
+        font-weight: 900;
+    }
+    
+    img{
+        height: 40px;
+        margin-bottom: 27px;
+    }
+    .logo1{
+        margin-left: 29%;
+    }
+    .logo2,.logo3{
+        margin-left: 37px;
+    }
+}
