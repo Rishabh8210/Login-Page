@@ -34,7 +34,7 @@ p{
 .Pa a{
     color: whitesmoke;
     font-size: 22px;
-    padding-top: 23%;
+    text-decoration: none;
 
 }
 
@@ -64,13 +64,14 @@ input[type="submit"]{
     background-color: black;
     color: white;
     border-radius: 17px;
+    font-weight: 900;
     font-size: 26px;
 
 }
 input[type="submit"]:hover{
     background-color: #339966;
     cursor: pointer;
-    font-weight: 900;
+    
 }
 
 img{
@@ -107,7 +108,7 @@ img{
     .Pa a{
         font-size: 16px;
         color: whitesmoke;
-        padding-top: 22%;
+        text-decoration: none;
     
     }
     
@@ -139,12 +140,13 @@ img{
         background-color: black;
         color: white;
         border-radius: 17px;
+        font-weight: 900;
     
     }
     input[type="submit"]:hover{
         background-color: #339966;
         cursor: pointer;
-        font-weight: 600;
+        
     }
     
     img{
@@ -183,7 +185,7 @@ img{
     .Pa a{
         color: whitesmoke;
         font-size: 18px;
-        padding-top: 23%;
+        text-decoration: none;
     
     }
     
@@ -214,12 +216,13 @@ img{
         color: white;
         border-radius: 17px;
         font-size: 22px;
+        font-weight: 900;
     
     }
     input[type="submit"]:hover{
         background-color: #339966;
         cursor: pointer;
-        font-weight: 900;
+        
     }
     
     img{
