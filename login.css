@@ -73,7 +73,7 @@ input[type="submit"]:hover{
     cursor: pointer;
     
 }
-.NotFound{
+body .NotFound{
     display: none;
     
 }
@@ -91,7 +91,7 @@ img{
     *{
         display: none;
     }
-    .NotFound{
+    body .NotFound{
         max-width: 299px;
         width: 100%;
         border: 2px solid black;
@@ -126,7 +126,7 @@ img{
         text-decoration: none;
     
     }
-    .NotFound{
+    body .NotFound{
         display: none;
         
     }
@@ -206,7 +206,7 @@ img{
         text-decoration: none;
     
     }
-    .NotFound{
+    body .NotFound{
         display: none;
         
     }
